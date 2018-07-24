@@ -23,6 +23,7 @@ import org.apache.commons.dbutils.handlers.ScalarHandler;
  */
 public class StudentManageSystem {
 	public static void main(String[] args) throws SQLException, IOException {
+		// 
 		System.out.println("成绩高于80的女生数目是：" + countGirlsMoreThan(80));
 		System.out.println();
 		
